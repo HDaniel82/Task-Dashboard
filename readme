@@ -1,0 +1,21 @@
+What I want to make: 
+
+Personal Dashboard / Admin Panel — A PHP + MySQL backend with a jQuery-powered frontend. Think a simple CMS where you can create, edit, delete posts or entries. Hits SQL, PHP, JS/jQuery, and "web platform development" directly.
+
+Should mainly manage personal Projects and Task Tracker 
+
+Structure is as follows (for now): 
+task-dashboard/
+├── index.php          ← dashboard home
+├── api/
+│   ├── projects.php   ← CRUD for projects
+│   └── tasks.php      ← CRUD for tasks
+├── include/
+│   ├── db.php         ← MySQL connection
+│   └── header.php     ← shared nav/head
+├── assets/
+│   ├── style.css
+│   └── app.js         ← jQuery logic
+└── sql/
+    └── schema.sql     ← your database setup
+
