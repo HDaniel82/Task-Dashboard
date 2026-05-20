@@ -2,10 +2,10 @@
 // include/db.php
 // MySQL Connection 
 
-$host = '127.0.0.1'; // or 'localhost'
+$host = 'db';                
 $db   = 'task_dashboard';
-$user = 'root';      // replace with your MySQL username
-$pass = '';          // replace with your MySQL password
+$user = 'root';      
+$pass = 'rootpassword';       
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
